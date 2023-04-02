@@ -17,7 +17,8 @@ $json = json_decode($file, true);
 
 
 if($_GET['type']=='all'||$_GET['type']!=null){
-    print_r($json['data']);  
+    $str = json_encode($json, JSON_UNESCAPED_UNICODE);
+    print_r($json[$str]);  
 }else{// 简洁接口
     $arr = array(
         'name' => $json['data']['name'],
