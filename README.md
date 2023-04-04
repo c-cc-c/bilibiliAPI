@@ -20,28 +20,10 @@
 
 携带参数如：
 ``` url
-127.0.0.1?mid=2033&type=all
+127.0.0.1?mid=2033&all
 ```
 
-则得到
-``` json
-{
-	"code": 0,
-	"message": "0",
-	"ttl": 1,
-	"data": {
-		"mid": 2033,
-		"name": "初音MIKU",
-		"sex": "保密",
-		"face": "http:\/\/i0.hdslb.com\/bfs\/face\/member\/noface.jpg",
-		"face_nft": 0,
-		"face_nft_type": 0,
-		"sign": "",
-		"rank": 10000,
-		"level": 1,
-		"jointime": 0
-```
-嗯,很多，所以为了节省时间不进行全部展示
+则得到全部输出
 
 
 
